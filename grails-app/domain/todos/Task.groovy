@@ -14,8 +14,8 @@ class Task {
 		
 	static constraints = {
 		name(nullable: false, blank: false)
-		summary(nullable: false, blank: false)
-		description(widget: 'textarea')
+		summary(nullable: true, blank: false)
+		description(nullable: true, widget: 'textarea')
 		dueDate()
 		projectName(nullable: true, blank: false)
 		assignedTo(nullable: false)
