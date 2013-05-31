@@ -48,3 +48,6 @@ test_app
 target/*
 f5-grailsPlugins.iml
 f5.iml
+todos-grailsPlugins.iml
+todos.iml
+/out/*
